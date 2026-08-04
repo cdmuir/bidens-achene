@@ -1,0 +1,25 @@
+﻿taxa,achene_length,achene_width,mass_per_achene,awn_presence,setose_glabrous,achene_shape,wing_state,num_island,multi_single,elev_min,elev_max,elev_habitat,km_groups,km_group_two,elev_midpoint,elev_range,habitat_moisture,Xcoastal_upland,costal_upland,montane_subalpine,younglava
+Bidens_alba_var_radiata,7.898,0.73,0.00115,0,0,0,0,5,0,0,2770,3,1,2,1385,2770,(0 1 2),2,2,0,0
+Bidens_amplectens,9.86,0.96,0.00157,1,0,0,0,1,1,50,220,0,0,0,135,170,0,1,1,0,0
+Bidens_asymmetrica,8.1405,0.8555,0.00123,0,1,1,0,1,1,300,600,1,0,0,450,300,1,1,1,0,0
+Bidens_campylotheca_subsp_campylotheca,11.959,1.292,0.00382,1,1,1,0,3,0,100,2100,3,1,2,1100,2000,(1 2),1,1,0,0
+Bidens_campylotheca_subsp_pentamera,10.8933,0.934,0.00247,1,1,1,0,1,1,100,2100,3,1,2,1100,2000,(1 2),1,1,0,0
+Bidens_cervicata,11.6385,0.721,0.00115,1,0,1,0,3,0,50,1200,2,1,1,625,1150,(0 1),2,2,0,0
+Bidens_conjuncta,12.0745,0.995,0.00203,0,1,1,0,1,1,900,1340,2,1,1,1120,440,2,1,1,0,0
+Bidens_cosmoides,9.3865,1.029,0.00226,0,0,1,0,1,1,350,1200,2,1,1,975,850,1,1,1,0,0
+Bidens_forbesii_subsp_forbesii,4.5955,0.3205,0.00065,1,0,1,0,1,1,0,1000,2,1,1,500,1000,(0 1),2,2,0,0
+Bidens_forbesii_subsp_kahiliensis,12.424,0.7565,0.00127,1,0,1,0,1,1,750,1000,2,1,1,875,250,2,1,1,0,0
+Bidens_hawaiensis,10.3275,1.403,0.00162,0,1,0,0,1,1,50,1400,2,1,1,675,1350,(0 1),1,1,0,0
+Bidens_hillebrandiana_subsp_hillebrandiana,7.2105,1.219,0.00116,0,0,0,0,3,0,1,100,0,0,0,50.5,99,0,0,0,0,0
+Bidens_macrocarpa,15.863,2.681,0.00603,0,1,1,1,1,1,400,750,1,0,0,575,350,(1 2),1,1,0,0
+Bidens_mauiensis,7.2135,2.8675,0.00239,1,1,0,1,3,0,50,600,1,0,0,325,550,0,2,2,0,0
+Bidens_menziesii_subsp_filiformis,7.73095,1.1495,0.00099,0,1,0,0,1,1,70,2200,3,1,2,1065,2130,0,1,1,1,0
+Bidens_menziesii_subsp_menziesii,10.36737,0.74895,0.00176,0,1,0,0,2,0,200,750,1,0,0,475,550,0,1,1,0,0
+Bidens_micrantha_subsp_kalealaha,10.9265,1.094,0.00214,0,1,0,0,2,0,750,2300,3,1,2,1525,1550,0,1,1,0,0
+Bidens_molokaiensis,8.54944,1.34,0.00206,0,1,0,0,2,0,1,250,0,0,0,125,249,0,0,0,0,1
+Bidens_pilosa,7.3655,0.788,0.0012,0,0,0,0,5,0,0,2340,3,1,2,1175,2340,(0 1 2),2,2,1,0
+Bidens_sandvicensis_subsp_confusa,7.8995,0.93765,0.00088,0,0,0,0,1,1,600,600,1,0,0,600,0,(0 1),1,1,0,0
+Bidens_sandvicensis_subsp_sandvicensis,11.8475,0.903,0.0016,0,0,0,0,2,0,150,900,1,0,0,525,750,(0 1),2,2,1,1
+Bidens_torta,10.265,0.6645,0.00147,1,1,1,0,1,1,200,1200,2,1,1,700,1000,(0 1 2),1,1,1,0
+Bidens_valida,10.8465,0.915,0.00148,0,1,0,0,1,1,350,900,1,0,0,625,550,(1 2),1,1,1,1
+Bidens_wiebkei,10.0382,1.1115,0.00104,0,0,1,1,1,1,250,1050,2,1,1,650,800,1,1,1,1,1
