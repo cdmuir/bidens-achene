@@ -1,7 +1,7 @@
 rm(list = ls())
 
 library(ape)
-# library(bayestestR)
+library(bayestestR)
 library(dplyr)
 library(furrr)
 library(future)
