@@ -6,32 +6,22 @@ safe_pglmm <- safely(pglmm)
 
 plan(multisession, workers = 16)
 
-set.seed(105497041)
+set.seed(837219406)
 
 taxa <- traits$taxa
 
-# Define set of response and predictor variables
-df_vars <- crossing(
-  nesting(
-    response = c(
-      "length_log",
-      "width_log",
-      "mass_log",
-      "awn_presence",
-      "setose_glabrous",
-      "achene_shape",
-      "wing_state"
-    ),
-    family = c(rep("gaussian", 3), rep("binomial", 4))
-  ),
+# Define set of predictor variables; response is fixed to multi_single (binomial)
+df_vars <- tibble(
+  response = "multi_single",
+  family = "binomial",
   predictor = c(
-    "scaled_elev_min",
-    "scaled_elev_midpoint",
-    "scaled_elev_max",
-    "scaled_elev_range",
-    "costal_upland",
-    "montane_subalpine",
-    "younglava"
+    "awn_presence",
+    "setose_glabrous",
+    "achene_shape",
+    "wing_state",
+    "length_log",
+    "width_log",
+    "mass_log"
   )
 )
 
@@ -119,4 +109,4 @@ results <- future_map_dfr(seq_along(trees),
     )
   })
 
-write_rds(results, "objects/pglmm-results.rds")
+write_rds(results, "objects/pglmm-results-multi_single.rds")
