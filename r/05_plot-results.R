@@ -21,7 +21,7 @@ pglmm_results <- read_rds("objects/pglmm-summary.rds") |>
       response == "wing_state" ~ "Wing State",
       TRUE ~ NA_character_
     ),
-    Significance = case_when(boot_p_value <= 0.0608 ~ "italic(P) <= 0.06", boot_p_value > 0.0608 ~ "italic(P) > 0.06")
+    Significance = case_when(boot_p_value <= 0.05 ~ "italic(P) <= 0.05", boot_p_value > 0.05 ~ "italic(P) > 0.05")
   ) |>
   filter(!is.na(`Trait response`))
 
