@@ -40,7 +40,7 @@ table_s2s3 <- tab |>
       predictor == "scaled_elev_max" ~ "Elevation max (m)",
       predictor == "scaled_elev_range" ~ "Elevation range (m)",
       predictor == "scaled_elev_midpoint" ~ "Elevation mid (m)",
-      predictor == "montane_subalpine" ~ "Young lava"
+      predictor == "montane_subalpine" ~ "Montane/Subalpine"
     ),
     table = case_when(
       response %in% c("length_log", "mass_log", "width_log") ~ "s2",
